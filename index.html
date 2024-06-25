@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipsy IT Services</title>
+    <style>body {
+        font-family: Arial;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    header {
+        background: #333;
+        color: #fff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #77ab59 3px solid;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    header ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    header li {
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    
+    header h1 {
+        float: left;
+        margin-top: 0;
+    }
+    
+    header nav {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    #hero {
+        background: #77ab59;
+        color: #fff;
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    #hero .btn {
+        display: inline-block;
+        color: #fff;
+        background: #333;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    
+    #services, #about, #contact {
+        padding: 20px 0;
+    }
+    
+    .service {
+        margin-bottom: 20px;
+    }
+    
+    #contact form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contact label {
+        margin-bottom: 5px;
+    }
+    
+    #contact input, #contact textarea {
+        margin-bottom: 10px;
+        padding: 8px;
+        font-size: 1rem;
+    }
+    
+    #contact button {
+        padding: 10px;
+        background: #77ab59;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    h2{
+        color:aqua;
+    }
+    h3{
+        color: red;
+    }
+    .body{
+        background-color: #b9ecf2;
+    }
+    
+    #contact button:hover {
+        background: #66a351;
+    }
+    
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chipsy IT Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <img src="thakshak.jpg" width="400px" height="250px"/>
+                <h2>Welcome to Chipsy IT Services</h2>
+                <a href="#contact" class="btn">Get in Touch</a>
+                <a href="https://maps.app.goo.gl/wpYqEvqdzMRXACu4A?g_st=aw" target="_blank">
+                    <div class="venue">SEE THE LOCATION</div>
+                 </a>
+            </div>
+        </section>
+        <section id="services" class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We create stunning and responsive websites to help your business grow.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud Solutions</h3>
+                <p>Our cloud services ensure your data is secure and accessible from anywhere.</p>
+            </div>
+            <div class="service">
+                <h3>IT Consulting</h3>
+                <p>We provide expert IT consulting to optimize your technology infrastructure.</p>
+            </div>
+        </section>
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>Chipsy IT Services is dedicated to delivering top-notch IT solutions tailored to meet the unique needs of our clients. With a team of experienced professionals, we are committed to ensuring your business thrives in the digital age.</p>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chipsy IT Services. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
